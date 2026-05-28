@@ -139,7 +139,7 @@ const ImpactCounter = () => {
           {/* Combined Pet Image (Static) */}
           <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
             <img
-              src="/public/underDogCat.png"
+              src="/underDogCat.png"
               alt="Cat and Dog"
               className="w-full max-w-[1100px] h-full object-contain"
             />
@@ -2494,7 +2494,7 @@ export default function App() {
                           alt="Собака и кот"
                           className="w-full h-auto relative z-10 scale-[1.15] origin-bottom-right translate-x-4"
                           onError={(e) => {
-                            e.currentTarget.src = '/public/main-image.png';
+                            e.currentTarget.src = '/main-image.png';
                             e.currentTarget.className = 'w-full h-[400px] object-cover rounded-[40px] relative z-10';
                           }}
                         />
@@ -2722,7 +2722,7 @@ export default function App() {
                             initial={{ y: 50, opacity: 0 }}
                             whileInView={{ y: 16, opacity: 1 }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            src="/public/funDog.png"
+                            src="/funDog.png"
                             alt="Счастливая собака"
                             className="w-full h-full object-cover object-top rounded-b-[32px]"
                             style={{ maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' }}
