@@ -2718,15 +2718,14 @@ export default function App() {
 
                         {/* Right Content (Dog Image) */}
                         <div className="absolute right-0 bottom-0 w-[45%] max-w-[500px] h-[120%] z-30 hidden md:block pointer-events-none">
-                          <motion.img
-                            initial={{ y: 50, opacity: 0 }}
-                            whileInView={{ y: 16, opacity: 1 }}
-                            transition={{ duration: 0.8, delay: 0.2 }}
-                            src="/funDog.png"
-                            alt="Счастливая собака"
-                            className="w-full h-full object-cover object-top rounded-b-[32px]"
-                            style={{ maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' }}
-                          />
+                          <img
+                          src="/funDog.png"
+                          alt="Счастливая собака"
+                          className="w-full h-full object-cover object-top rounded-b-[32px]"
+                          style={{
+                            maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
+                            WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
+                          }}
                         </div>
                       </div>
                     </div>
